@@ -1,0 +1,16 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "A simple nodejs training project for Tasks with streaming",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danillo Estrela",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
